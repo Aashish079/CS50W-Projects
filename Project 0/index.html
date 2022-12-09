@@ -6,14 +6,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a class="buttons" > Google Advance search </a>   
-        <a class="buttons" href="indeximg.html">Google image search</a>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="indexadv.html">Advanced search </a></li>
+                    <li><a href="indeximg.html">Images</a></li>
+                </ul>
+            </div>
+        </nav>   
         
+        <div class="logo">
+            <img id="logo" src="project-logo.png" alt="Google's logo" style="float:center">
+        </div>
 
-        <p1>AK's</p1><img id="logo" src="logo1.png" alt="Google's logo" style="float:center">
-        <form id="searchBox" action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" title="search" value="Google Search">
-        </form>
+        <div class="inputWrapper">
+            <form id="searchBox" action="https://google.com/search">
+                <input type="text" name="q">
+                <input type="submit" title="search" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>
